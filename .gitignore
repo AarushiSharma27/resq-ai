@@ -1,0 +1,30 @@
+# Dependencies / environments
+node_modules/
+.venv/
+venv/
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Frontend build output
+frontend/dist/
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Local data generated at runtime
+backend/*.db
+backend/*.db-shm
+backend/*.db-wal
+ml/artifacts/*.joblib
+ml/datasets/*.csv
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
